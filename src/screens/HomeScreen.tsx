@@ -4,7 +4,7 @@ import Header from '@/component/HomeScreens/Header';
 
 export default function HomeScreen() {
   return (
-    <View className="py-10 px-10">
+    <View className="py-8 px-8 bg-white">
       <Header />
     </View>
   )
