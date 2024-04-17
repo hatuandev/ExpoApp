@@ -1,14 +1,15 @@
 import { registerRootComponent } from "expo";
 import Tabs from "./component/Tabs/Tabs";
 import { NavigationContainer } from "@react-navigation/native";
-
+import LoginScreen from "./screens/LoginScreen";
 
 export default function App() {
 
   return (
-    <NavigationContainer>
-      <Tabs />
-    </NavigationContainer>
+    <LoginScreen></LoginScreen>
+    // <NavigationContainer>
+    //   <Tabs />
+    // </NavigationContainer>
   );
 }
 
